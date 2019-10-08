@@ -1,0 +1,32 @@
+*:focus {
+  outline: none !important; }
+
+body {
+  background: #ccc;
+  padding-bottom: 2000px; }
+
+a.pagetop {
+  width: 50px;
+  height: 50px;
+  z-index: 555;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #26404e;
+  display: none; }
+  a.pagetop::before {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 1.0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -51%);
+    -ms-transform: translate(-50%, -51%);
+    transform: translate(-50%, -51%); }
+  a.pagetop:hover, a.pagetop:focus {
+    background: white; }
